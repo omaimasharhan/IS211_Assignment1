@@ -15,6 +15,6 @@ def test_list_divide():
         assert list_divide([]) == 0
         assert list_divide([1, 2, 3, 4, 5], 1) == 5
     except AssertionError:
-        raise ListDivideException ("Test Faile9999d")
+        raise ListDivideException ("Test Failed")
 
 test_list_divide()
